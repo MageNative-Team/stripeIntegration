@@ -22,6 +22,8 @@
 		CF63D63F272FAE4800CBCC1C /* network.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF63D63E272FAE4800CBCC1C /* network.swift */; };
 		CF63D641272FAE9100CBCC1C /* stripeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF63D640272FAE9100CBCC1C /* stripeVC.swift */; };
 		CF63D643272FB39800CBCC1C /* initialSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF63D642272FB39800CBCC1C /* initialSetup.swift */; };
+		CF63D645272FBE5700CBCC1C /* Pods_stripe_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF63D644272FBE5700CBCC1C /* Pods_stripe_ios.framework */; };
+		CF63D646272FBE5700CBCC1C /* Pods_stripe_ios.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF63D644272FBE5700CBCC1C /* Pods_stripe_ios.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,20 @@
 			remoteInfo = stripeIntegration;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF63D647272FBE5700CBCC1C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CF63D646272FBE5700CBCC1C /* Pods_stripe_ios.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1C5E8913ECDEC9A7853ECFE0 /* Pods-stripeIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stripeIntegration.release.xcconfig"; path = "Target Support Files/Pods-stripeIntegration/Pods-stripeIntegration.release.xcconfig"; sourceTree = "<group>"; };
@@ -58,6 +74,7 @@
 		CF63D63E272FAE4800CBCC1C /* network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = network.swift; sourceTree = "<group>"; };
 		CF63D640272FAE9100CBCC1C /* stripeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stripeVC.swift; sourceTree = "<group>"; };
 		CF63D642272FB39800CBCC1C /* initialSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initialSetup.swift; sourceTree = "<group>"; };
+		CF63D644272FBE5700CBCC1C /* Pods_stripe_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_stripe_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BD7BA96CE0C815FB73B500 /* Pods-stripeIntegration-stripeIntegrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stripeIntegration-stripeIntegrationTests.debug.xcconfig"; path = "Target Support Files/Pods-stripeIntegration-stripeIntegrationTests/Pods-stripeIntegration-stripeIntegrationTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +84,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B29F2FB41A1EBE782E7EF63 /* Pods_stripeIntegration.framework in Frameworks */,
+				CF63D645272FBE5700CBCC1C /* Pods_stripe_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +111,7 @@
 		21A928DACBFCAACCE4ED23E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF63D644272FBE5700CBCC1C /* Pods_stripe_ios.framework */,
 				AB0216E3A4150335E4893C31 /* Pods_stripeIntegration.framework */,
 				47F7CECC1447614896974F1F /* Pods_stripeIntegration_stripeIntegrationTests.framework */,
 				CAFF9801667FDCD33245A935 /* Pods_stripe_ios.framework */,
@@ -191,6 +210,7 @@
 				CF63D60A272FABA700CBCC1C /* Sources */,
 				CF63D60B272FABA700CBCC1C /* Frameworks */,
 				CF63D60C272FABA700CBCC1C /* Resources */,
+				CF63D647272FBE5700CBCC1C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
