@@ -1,0 +1,27 @@
+PODS:
+  - Stripe (21.8.1):
+    - Stripe/Stripe3DS2 (= 21.8.1)
+    - StripeCore (= 21.8.1)
+  - Stripe/Stripe3DS2 (21.8.1):
+    - StripeCore (= 21.8.1)
+  - StripeCore (21.8.1)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Stripe
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Stripe
+    - StripeCore
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Stripe: 57c6997c64042a3f5aedae9b76e331942f8b75d2
+  StripeCore: a6e50d58119a0c7601773b56f274db2d394dcdac
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: ccea6365b68b6987a5f51c0985b49aa1929bfffc
+
+COCOAPODS: 1.11.2

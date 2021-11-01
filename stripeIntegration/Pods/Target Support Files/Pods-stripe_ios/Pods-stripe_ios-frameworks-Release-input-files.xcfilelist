@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-stripe_ios/Pods-stripe_ios-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework
+${BUILT_PRODUCTS_DIR}/StripeCore/StripeCore.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
